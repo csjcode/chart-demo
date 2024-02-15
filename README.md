@@ -1,3 +1,47 @@
+
+# Install
+
+## Install with NEXTJS, TAILWINDCSS and SHADCN
+
+
+Chart demo
+
+1. Make a repo in Github
+
+https://github.com/csjcode/chart-demo.git
+
+2. NextJS, Tailwindcss
+
+DO Use:
+https://nextjs.org/docs/app/building-your-application/styling/tailwind-css
+
+Had some issues:
+do not use ~~https://tailwindcss.com/docs/guides/nextjs~~
+
+Updated node
+
+brew update
+brew doctor
+brew upgrade node
+brew link node
+
+3. Shadcn
+
+https://ui.shadcn.com/docs/installation/next
+
+4. I deleted the tailwind.config.js as it conflicting with tailwind.config.ts
+5. I followed this to modify layout.tsx (2 areas to make a dark)
+
+    <html className="dark" lang="en">
+      <body className={`dark:bg-gray-800 {inter.className}`}>{children}</body>
+    </html>
+
+
+
+
+-------------------
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
