@@ -36,10 +36,7 @@ https://ui.shadcn.com/docs/installation/next
       <body className={`dark:bg-gray-800 {inter.className}`}>{children}</body>
     </html>
 
-
-
-
--------------------
+---------------------------------------------------------
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
