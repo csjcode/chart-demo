@@ -41,6 +41,16 @@ https://ui.shadcn.com/docs/installation/next
 lightweight-charts
 https://github.com/tradingview/lightweight-charts
 
+React
+https://tradingview.github.io/lightweight-charts/tutorials/react/simple
+
+YouTube Video Tutorial playlist:
+https://www.youtube.com/watch?v=zxhWjV1-AyE&list=PLwnDHoBU_EKY_xauZ6bvZt7z6rgmH7EHj
+
+Series types:
+https://tradingview.github.io/lightweight-charts/docs/series-types
+
+
 `npm install lightweight-charts`
 
 ```js
