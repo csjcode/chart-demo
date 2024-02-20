@@ -24,7 +24,7 @@ const DemoCandleBars = () => {
       width: chartContainerRef.current.clientWidth,
       height: 400,
       layout: {
-        background: { color: "#000" },
+        background: { color: "#171C25" },
         textColor: "#2096F3",
       },
       grid: {

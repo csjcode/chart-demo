@@ -10,20 +10,20 @@ import { IoLogoAndroid, IoLogoApple, IoMdNotifications } from "react-icons/io";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import { ImMug } from "react-icons/im";
 
-
-
-
 export default function DemoPage() {
   return (
     <div className="flex flex-col justify-center">
-      <div className="flex flex-row w-full min-h-full border border-red-500">
-        <div className="flex flex-col bg-slate-950 min-w-[225px] border border-red-500">
+      <div className="flex flex-row w-full min-h-full">
+        <div className="flex flex-col bg-slate-950 min-w-[225px]">
           <div className="flex flex-row justify-center items-center w-full h-12">
             <div className="flex flex-row justify-center items-center mr-4">
               <div className="mr-2 ml-4 text-2xl">
                 <FaShieldCat />
               </div>
-              <div className="text-xl"><span className="font-bold">MEME</span><span className="font-light">SCRN</span></div>
+              <div className="text-xl">
+                <span className="font-bold">MEME</span>
+                <span className="font-light">SCRN</span>
+              </div>
             </div>
           </div>
           <div className=" w-full h-12 flex justify-center items-center">
@@ -90,35 +90,189 @@ export default function DemoPage() {
               <div className="text-lg">Commentary</div>
             </div>
           </div>
-          <div className="border border-emerald-500 w-full h-72"></div>
+          <div className="border border-emerald-500 w-full h-72">
+            <div className="flex flex-row w-full py-1 pl-2 items-center h-12 text-zinc-200 border border-b-slate-900">
+              <div className="mr-2 text-2xl ">
+                <Image
+                  alt="solana"
+                  className="mr-1"
+                  src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                  width={24}
+                  height={12}
+                />
+              </div>
+              <div className="text-md">Solana</div>
+            </div>
+            <div className="flex flex-row w-full py-1 pl-2 items-center h-12 text-zinc-200 border border-b-slate-900">
+              <div className="mr-2 text-2xl ">
+                <Image
+                  alt="solana"
+                  className="mr-1"
+                  src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                  width={24}
+                  height={12}
+                />
+              </div>
+              <div className="text-md">Solana</div>
+            </div>
+            <div className="flex flex-row w-full py-1 pl-2 items-center h-12 text-zinc-200 border border-b-slate-900">
+              <div className="mr-2 text-2xl ">
+                <Image
+                  alt="solana"
+                  className="mr-1"
+                  src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                  width={24}
+                  height={12}
+                />
+              </div>
+              <div className="text-md">Solana</div>
+            </div>
+
+            <div className="flex flex-row w-full py-1 pl-2 items-center h-12 text-zinc-200 border border-b-slate-900">
+              <div className="mr-2 text-2xl ">
+                <Image
+                  alt="solana"
+                  className="mr-1"
+                  src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                  width={24}
+                  height={12}
+                />
+              </div>
+              <div className="text-md">Solana</div>
+            </div>
+            <div className="flex flex-row w-full py-1 pl-2 items-center h-12 text-zinc-200 border border-b-slate-900">
+              <div className="mr-2 text-2xl ">
+                <Image
+                  alt="solana"
+                  className="mr-1"
+                  src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                  width={24}
+                  height={12}
+                />
+              </div>
+              <div className="text-md">Solana</div>
+            </div>
+            <div className="flex flex-row w-full py-1 pl-2 items-center h-12 text-zinc-200 border border-b-slate-900">
+              <div className="mr-2 text-2xl ">
+                <Image
+                  alt="solana"
+                  className="mr-1"
+                  src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                  width={24}
+                  height={12}
+                />
+              </div>
+              <div className="text-md">Solana</div>
+            </div>
+          </div>
+
           <div className="border border-emerald-500 w-full h-12"></div>
         </div>
-        <div className="w-full pb-8 flex flex-col bg-slate-800 border border-red-500">
+        <div className="w-full pb-8 flex flex-col bg-slate-800">
           <div className="flex flex-row bg-slate-900 w-full h-12 justify-start items-center">
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
-            <div className="ml-1 bg-slate-800 w-20 h-8 rounded-md"></div>
+            <div className="flex flex-row ml-1 p-2 bg-slate-800 rounded-md">
+              <div className="text-slate-600 text-sm mr-1">#1</div>
+              <Image
+                alt="solana"
+                className="mr-1"
+                src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                width={18}
+                height={8}
+              />
+              <div className="text-xs">SOL</div>
+              <div className="mx-1 text-xs text-emerald-500">+5.2%</div>
+            </div>
+
+            <div className="flex flex-row ml-1 p-2 bg-slate-800 rounded-md">
+              <div className="text-slate-600 text-sm mr-1">#1</div>
+              <Image
+                alt="solana"
+                className="mr-1"
+                src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                width={18}
+                height={8}
+              />
+              <div className="text-xs">SOL</div>
+              <div className="mx-1 text-xs text-emerald-500">+5.2%</div>
+            </div>
+
+            <div className="flex flex-row ml-1 p-2 bg-slate-800 rounded-md">
+              <div className="text-slate-600 text-sm mr-1">#1</div>
+              <Image
+                alt="solana"
+                className="mr-1"
+                src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                width={18}
+                height={8}
+              />
+              <div className="text-xs">SOL</div>
+              <div className="mx-1 text-xs text-emerald-500">+5.2%</div>
+            </div>
+
+            <div className="flex flex-row ml-1 p-2 bg-slate-800 rounded-md">
+              <div className="text-slate-600 text-sm mr-1">#1</div>
+              <Image
+                alt="solana"
+                className="mr-1"
+                src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                width={18}
+                height={8}
+              />
+              <div className="text-xs">SOL</div>
+              <div className="mx-1 text-xs text-emerald-500">+5.2%</div>
+            </div>
+
+            <div className="flex flex-row ml-1 p-2 bg-slate-800 rounded-md">
+              <div className="text-slate-600 text-sm mr-1">#1</div>
+              <Image
+                alt="solana"
+                className="mr-1"
+                src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                width={18}
+                height={8}
+              />
+              <div className="text-xs">SOL</div>
+              <div className="mx-1 text-xs text-emerald-500">+5.2%</div>
+            </div>
+
+            <div className="flex flex-row ml-1 p-2 bg-slate-800 rounded-md">
+              <div className="text-slate-600 text-sm mr-1">#1</div>
+              <Image
+                alt="solana"
+                className="mr-1"
+                src="https://assets.coingecko.com/coins/images/4128/small/solana.png?1696504756"
+                width={18}
+                height={8}
+              />
+              <div className="text-xs">SOL</div>
+              <div className="mx-1 text-xs text-emerald-500">+5.2%</div>
+            </div>
           </div>
           {/* <div className="px-1 py-2 text-zinc-400 text-lg border border-red-500">
             Demo Chart Example
           </div> */}
-          <div className="w-full border border-red-500">
+          <div className="w-full">
             <DemoCandleBars />
           </div>
-          <div className="bg-slate-900 w-full border border-red-500"></div>
+          <div className="bg-slate-900 w-full"></div>
         </div>
 
-        <div className="bg-slate-600  min-w-[325px] border border-red-500">
-          <div className="border border-blue-500 w-full h-12"></div>
-          <div className="border border-blue-500 w-full h-24"></div>
+        <div className="bg-slate-600  min-w-[325px]">
+          <div className="flex flex-row border border-blue-500 w-full h-12">
+            <div className="mr-1">Icon</div>
+            <div className="">Wen</div>
+          </div>
+          <div className="border border-blue-500 w-full h-24">
+            <div className="">WEN / SOL</div>
+            <div className="">#2 Solana Orca WP</div>
+          </div>
           <div className="flex flex-col justify-center items-center border border-blue-500 w-full h-36">
             <Skeleton className="h-[125px] w-full rounded-xl" />
+            <div className="flex flex-row space-x-5 text-xs p-1">
+              <div className="">Website</div>
+              <div className="">Twitter</div>
+              <div className="">Discord</div>
+            </div>
           </div>
           <div className="border border-blue-500 w-full h-60"></div>
           <div className="border border-blue-500 w-full h-12"></div>
