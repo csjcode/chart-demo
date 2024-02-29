@@ -18,6 +18,18 @@ th {
   border-bottom: 0px solid lightgray;
   border-right: 0px solid lightgray;
   padding: 2px 4px;
+  background-color: #27272a;
+}
+
+tr:hover {
+  background-color: #52525b; /* Light grey background on row hover */
+  color: #e4e4e7;
+}
+
+td {
+  border: 1px solid #ddd; /* Example uses a light grey border; adjust color as needed */
+  padding: 8px; /* Adds padding inside the data cells */
+  border-color: #27272a;
 }
 
 tfoot {
